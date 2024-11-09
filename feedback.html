@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="content.html">Content</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Feedback</h1>
+         <!-- Tombol Mode -->
+    <button class="button" onclick="tombol()">Click Dark/Light Mode</button>
+    </header>
+    
+    <main>
+        <section>
+            <div class="isi">
+                <h1>Submit Your Feedback</h1>
+                <form action="action" method="post">
+                    
+                    <label for="nama">Nama : </label>
+                    <input type="text" id="nama" name="nama" placeholder="Nama kamu...">
+                    
+                    <label for="feedback">Feedback :</label>
+                    <textarea id="feedback" name="feedback" placeholder="Tulis sesuatu..."
+                    style="height: 200px;"></textarea>
+                    
+                    <input type="submit" value="Kirim">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer >
+        <h3>Learning Labs 2024 L0124040 Aprillia Wulandari</h3>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
